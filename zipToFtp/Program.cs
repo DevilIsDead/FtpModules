@@ -1,6 +1,4 @@
-﻿using System;
-using System.IO;
-using System.Configuration;
+﻿using System.Configuration;
 using System.IO.Compression;
 using FluentFTP;
 
@@ -8,6 +6,12 @@ class Program
 {
     static void Main()
     {
+        logic();
+        Console.WriteLine("Press any key to exit.................");
+        Console.ReadKey();
+    }
+
+    static void logic() {
         ConfigurationManager.RefreshSection("src");
         ConfigurationManager.RefreshSection("pcNum");
         ConfigurationManager.RefreshSection("ftpUrl");
@@ -21,7 +25,6 @@ class Program
             Console.WriteLine("No such directory!");
             return;
         }
-
         string zipName = "zip_PC_" + ConfigurationManager.AppSettings["pcNum"] + ".zip";
         if (File.Exists(zipName))
         {
@@ -72,9 +75,6 @@ class Program
             );
             Console.WriteLine("Exception " + ex.Message);
         }
-
-
-        Console.WriteLine("Press any key to exit.................");
-        Console.ReadKey();
+    File.Delete(zipName);
     }
 }

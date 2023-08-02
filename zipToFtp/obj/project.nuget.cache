@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zHEuzorNdiyk2bF0AqkQm6YEudXH78kcgNyJwBi/G5MrHLGA4Dp98pPpwv4XA/33nnErK55UHwbHKAbysh6WFw==",
+  "dgSpecHash": "dxDJE/zimdBUXKGce2wUlxlxDmRdDo7K/PujydoC2VjLki/K/0/nR5Ae+5zCweFv26uue7Rm1kDEACELb+XmMg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Igor\\mirea\\FtpModules\\zipToFtp\\zipToFtp.csproj",
   "expectedPackageFiles": [
@@ -14,7 +14,10 @@
     "C:\\Users\\Igor\\.nuget\\packages\\system.security.cryptography.protecteddata\\5.0.0\\system.security.cryptography.protecteddata.5.0.0.nupkg.sha512",
     "C:\\Users\\Igor\\.nuget\\packages\\system.security.permissions\\5.0.0\\system.security.permissions.5.0.0.nupkg.sha512",
     "C:\\Users\\Igor\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
-    "C:\\Users\\Igor\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
+    "C:\\Users\\Igor\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Igor\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\7.0.9\\microsoft.netcore.app.runtime.win-x86.7.0.9.nupkg.sha512",
+    "C:\\Users\\Igor\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\7.0.9\\microsoft.windowsdesktop.app.runtime.win-x86.7.0.9.nupkg.sha512",
+    "C:\\Users\\Igor\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\7.0.9\\microsoft.aspnetcore.app.runtime.win-x86.7.0.9.nupkg.sha512"
   ],
   "logs": [
     {

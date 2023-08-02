@@ -8,6 +8,12 @@ class Program
 {
     static void Main()
     {
+        logic();
+        Console.WriteLine("Press any key to exit.................");
+        Console.ReadKey();
+    }
+
+    static void logic() {
         ConfigurationManager.RefreshSection("src");
         ConfigurationManager.RefreshSection("pcNum");
         ConfigurationManager.RefreshSection("ftpUrl");
@@ -25,6 +31,7 @@ class Program
         )
         {
             Console.WriteLine("Empty FTP information!");
+            return;
         }
         else
         {
@@ -62,6 +69,7 @@ class Program
 
             if (!File.Exists(ConfigurationManager.AppSettings["baseDir"] + zipName)) {
                 Console.WriteLine("Error! File was not downloaded!");
+                return;
             } else { 
                 string dest = "";
                 dest += ConfigurationManager.AppSettings["baseDir"];
@@ -69,8 +77,5 @@ class Program
                 File.Delete(ConfigurationManager.AppSettings["baseDir"] + zipName);
             }
         }
-
-        Console.WriteLine("Press any key to exit.................");
-        Console.ReadKey();
     }
 }
