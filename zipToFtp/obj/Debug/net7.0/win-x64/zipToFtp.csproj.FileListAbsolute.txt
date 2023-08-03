@@ -205,3 +205,11 @@ C:\Users\Igor\mirea\FtpModules\zipToFtp\obj\Debug\net7.0\win-x64\refint\zipToFtp
 C:\Users\Igor\mirea\FtpModules\zipToFtp\obj\Debug\net7.0\win-x64\zipToFtp.pdb
 C:\Users\Igor\mirea\FtpModules\zipToFtp\obj\Debug\net7.0\win-x64\zipToFtp.genruntimeconfig.cache
 C:\Users\Igor\mirea\FtpModules\zipToFtp\obj\Debug\net7.0\win-x64\ref\zipToFtp.dll
+C:\Users\Igor\mirea\FtpModules\zipToFtp\bin\Debug\net7.0\win-x64\Microsoft.Extensions.Configuration.dll
+C:\Users\Igor\mirea\FtpModules\zipToFtp\bin\Debug\net7.0\win-x64\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Igor\mirea\FtpModules\zipToFtp\bin\Debug\net7.0\win-x64\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Igor\mirea\FtpModules\zipToFtp\bin\Debug\net7.0\win-x64\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Igor\mirea\FtpModules\zipToFtp\bin\Debug\net7.0\win-x64\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Igor\mirea\FtpModules\zipToFtp\bin\Debug\net7.0\win-x64\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Igor\mirea\FtpModules\zipToFtp\bin\Debug\net7.0\win-x64\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Igor\mirea\FtpModules\zipToFtp\bin\Debug\net7.0\win-x64\Microsoft.Extensions.Primitives.dll
